@@ -1,0 +1,16 @@
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost:3306/OneOne</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<mapping resource="Customer.hbm.xml" />
+		<mapping resource="Address.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

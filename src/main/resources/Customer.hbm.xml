@@ -1,0 +1,16 @@
+<hibernate-mapping package="com.OneTo.OneMapping">
+	<class name="Customer" table="customers">
+		<id name="cid" type="long" column="cid">
+			<generator class="identity" />
+		</id>
+
+		<property name="cname" column="cname" type="string" />
+
+		<one-to-one name="address" 
+            class="com.OneTo.OneMapping.Address" 
+            cascade="all" 
+            fetch="select" 
+            lazy="proxy"/>
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,5 @@
+com\OneTo\OneMapping\App.class
+Utility\HibernateUtil.class
+Service\CustomerService.class
+com\OneTo\OneMapping\Customer.class
+com\OneTo\OneMapping\Address.class

@@ -1,0 +1,11 @@
+<hibernate-mapping package="com.OneTo.OneMapping">
+	<class name="Address" table="addresses">
+		<id name="aid" column="aid" type="long">
+			<generator class="identity" />
+		</id>
+
+		<property name="astreet" column="street" type="string" />
+		<property name="acity" column="city" type="string" />
+		<property name="azipCode" column="zip_code" type="string" />
+	</class>
+</hibernate-mapping>
