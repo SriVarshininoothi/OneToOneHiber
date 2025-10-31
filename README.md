@@ -26,3 +26,13 @@ One Customer → One Address
 One Address → One Customer
 
 In Hibernate, this is represented using @OneToOne.
+
+## ⚙️ Technologies Used
+
+Technology	         Purpose
+Java	          Programming Language
+Hibernate       ORM	Object Relational Mapping
+MySQL	          Database
+JPA             Annotations	Entity Mapping
+Eclipse        	IDE
+Maven	          Dependency Management
