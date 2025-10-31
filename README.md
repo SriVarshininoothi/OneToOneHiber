@@ -29,10 +29,11 @@ In Hibernate, this is represented using @OneToOne.
 
 ## ⚙️ Technologies Used
 
-Technology	         Purpose
-Java	          Programming Language
-Hibernate       ORM	Object Relational Mapping
-MySQL	          Database
-JPA             Annotations	Entity Mapping
-Eclipse        	IDE
-Maven	          Dependency Management
+#Technology	         Purpose
+
+1. Java	          Programming Language
+2. Hibernate       ORM	Object Relational Mapping
+3. MySQL	          Database
+4. JPA             Annotations	Entity Mapping
+5. Eclipse        	IDE
+6. Maven	          Dependency Management
